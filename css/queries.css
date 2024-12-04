@@ -1,0 +1,296 @@
+/* 1440px and larger */
+@media (min-width: 90em) {
+  html {
+    font-size: 0.695vw;
+  }
+}
+
+/* 1280px and smaller */
+@media (max-width: 80em) {
+  html {
+    font-size: clamp(50%, 0.77vw, 62.5%);
+  }
+}
+
+/* 928px and smaller */
+@media (max-width: 58em) {
+  .section-tokenomics {
+    padding-top: 4rem;
+  }
+
+  .meme-generator-btn-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .section-tokenomics {
+    padding-bottom: 0;
+  }
+
+  .tokenomics-img {
+    bottom: -0.2rem;
+  }
+
+  .hero-content-container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .hero-img-container {
+    height: 100%;
+    width: auto;
+  }
+
+  .tokenomics-img {
+    position: relative;
+    height: auto;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .tokenomics-canvas-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .story-content-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .section-story {
+    height: calc(130rem + 45vw);
+  }
+
+  .platform-links-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .how-to-step {
+    padding: 2rem 8rem 2rem 8rem;
+    column-gap: 8rem;
+  }
+
+  .how-to-step:nth-child(even) {
+    padding: 10rem 8rem 10rem 8rem;
+  }
+
+  .memes-wrapper {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .how-to-step-04 {
+    height: 80rem;
+    padding-bottom: 14rem;
+  }
+
+  .box-01 {
+    padding-top: 0;
+  }
+
+  .hero-text-container {
+    width: auto;
+  }
+
+  .tokemomics-content-container {
+    flex-direction: column;
+  }
+  .tokenomics-img {
+    padding-top: 2rem;
+    position: relative;
+    display: block;
+  }
+
+  .tokenomics-grid {
+    width: 100%;
+  }
+
+  .padding-left-low {
+    padding-left: 4rem;
+  }
+
+  .padding-right-low {
+    padding-right: 4rem;
+  }
+
+  .margin-left-low {
+    margin-left: 4rem;
+  }
+
+  .header {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+/* 880px and smaller */
+@media (max-width: 55em) {
+  .footer-list-03,
+  .footer-list-01 {
+    display: none;
+  }
+  .footer-list-02 {
+    width: 100%;
+    text-align: center;
+  }
+  .right-arrow-container-02 {
+    display: none;
+  }
+
+  .footer-copyright {
+    font-size: 1.8rem;
+  }
+}
+
+/* 768px and smaller */
+@media (max-width: 48em) {
+  /* THIS IS CHECKED IN JS */
+  /* .mobile-hidden-link {
+    display: none;
+  }
+  .hamburger-menu-btn-list {
+    display: block;
+  } */
+  .nav-item-btn {
+    padding: 0.8rem 2rem;
+  }
+}
+
+/* 704px and smaller */
+@media (max-width: 44em) {
+  .header {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .hero-img-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-canvas-img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .section-memes {
+    margin-top: -1rem;
+  }
+
+  .section-platform-links {
+    margin-top: -1rem;
+  }
+
+  .platform-links-container {
+    padding: 0 2rem;
+  }
+
+  :root {
+    --font-heading-02: 400 normal 6rem/7rem "Lobster", cursive;
+  }
+
+  .padding-left-low {
+    padding-left: 2rem;
+  }
+
+  .padding-right-low {
+    padding-right: 2rem;
+  }
+
+  .margin-left-low {
+    margin-left: 2rem;
+  }
+
+  .hero-content-container {
+    padding-bottom: 6rem;
+    flex-direction: column;
+    padding-top: 14rem;
+    height: calc(40rem + 100vw);
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .meme-generator-btn-container {
+    padding: 0 2rem;
+  }
+
+  :root {
+    --font-tokenomics-title: 600 normal 3.2rem/3.2rem "Jost", sans-serif;
+    --font-heading-02-A: 400 normal 4rem/4.2rem "Lobster", cursive;
+  }
+  .story-content-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .how-to-step {
+    padding: 2rem 2rem 2rem 2rem;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .how-to-step:nth-child(even) {
+    padding: 8rem 2rem 8rem 2rem;
+  }
+
+  .how-to-text-container {
+    grid-row: 2 / 3;
+  }
+  .how-to-step-image-container {
+    grid-row: 1 / 2;
+  }
+
+  .how-to-step-04 {
+    display: flex;
+    flex-direction: column;
+    /* height: calc(200rem - 60vw); */
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 20rem;
+    padding-top: 10rem;
+  }
+
+  .memes-wrapper {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .meme-container:last-child {
+    display: none;
+  }
+}
+
+/* 576px and smaller */
+@media (max-width: 36em) {
+  .platform-links-container {
+    grid-template-columns: 1fr;
+  }
+
+  .ca-text {
+    font-size: 1.2rem !important;
+  }
+}
+
+/* 400px and smaller */
+@media (max-width: 25em) {
+  html {
+    font-size: 2vw;
+  }
+}

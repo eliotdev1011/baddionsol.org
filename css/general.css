@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background: rgba(255, 113, 219, 1);
+}
+
+body {
+  background: rgb(175, 142, 255);
+  /* background: linear-gradient(
+    -45deg,
+    rgba(175, 142, 255, 1) 0%,
+    rgba(255, 113, 219, 1) 100%
+  ); */
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-VariableFont_wght.woff2") format("woff2");
+}
+
+:root {
+  --font-nav-links: 400 normal 2.4rem/3.2rem "Lobster", cursive;
+  --font-heading-01: 400 normal 10rem/7rem "Lobster", cursive;
+  --font-heading-02: 400 normal 8rem/7rem "Lobster", cursive;
+  --font-heading-02-A: 400 normal 5rem/5.2rem "Lobster", cursive;
+  --font-heading-03: 500 normal 4rem/3.8rem "Jost", sans-serif;
+  --font-heading-04: 400 normal 3.4rem/5rem "Lobster", cursive;
+  --font-meme-maker-btn: 400 normal 3rem/5rem "Lobster", cursive;
+  --font-large-numbers: 400 normal 15rem/12rem "Lobster", cursive;
+  --font-tokenomics-title: 600 normal 5rem/5rem "Jost", sans-serif;
+  --font-body: 400 normal 2.2rem/3.8rem "Jost", sans-serif;
+  --font-body-small: 400 normal 1.4rem/2.8rem "Jost", sans-serif;
+
+  --lightest-color: #ffffff;
+  --highlight-color: #ff00bf;
+  --dark-color: #2d357f;
+  --dark-color-02: #083987;
+
+  --soft-highlight-color: #fc73dd;
+  --softer-highlight-color: #ffaaea;
+
+  --solid-text-shadow: 0px 0.8rem 0px #ff00bf;
+}
+
+.section {
+  position: relative;
+}
+
+.heading-01 {
+  font: var(--font-heading-01);
+  color: var(--lightest-color);
+}
+
+.heading-01-stroked {
+  font: var(--font-heading-01);
+  color: var(--lightest-color);
+  -webkit-text-stroke: 0.8rem var(--highlight-color);
+  text-shadow: var(--solid-text-shadow);
+}
+
+.heading-02 {
+  font: var(--font-heading-02);
+  color: var(--lightest-color);
+}
+
+.heading-02-stroked {
+  font: var(--font-heading-02);
+  color: var(--lightest-color);
+  -webkit-text-stroke: 0.8rem var(--highlight-color);
+  text-shadow: var(--solid-text-shadow);
+}
+
+.heading-02-A {
+  font: var(--font-heading-02-A);
+  color: var(--lightest-color);
+}
+
+.heading-03 {
+  font: var(--font-heading-03);
+  color: var(--lightest-color);
+  margin-bottom: 2rem;
+}
+
+.heading-04 {
+  font: var(--font-heading-04);
+}
+
+.large-number {
+  font: var(--font-large-numbers);
+  color: var(--softer-highlight-color);
+  margin-bottom: 2.8rem;
+}
+
+.stroked-title-container {
+  position: relative;
+}
+
+.body-text {
+  font: var(--font-body);
+  color: var(--lightest-color);
+  margin-bottom: 4rem;
+}
+
+.ca-text {
+  font-size: 1.8rem !important;
+}
+
+.canvas-img-01 {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.canvas-img-02 {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.margin-top-low {
+  margin-top: 4rem;
+}
+
+.margin-bot-mid {
+  margin-bottom: 14rem;
+}
+
+.margin-left-high {
+  margin-left: 16rem;
+}
+
+.margin-right-high {
+  margin-left: 16rem;
+}
+
+.margin-left-low {
+  margin-left: 8rem;
+}
+
+.margin-right-low {
+  margin-left: 8rem;
+}
+
+.padding-left-high {
+  padding-left: 16rem;
+}
+
+.padding-right-high {
+  padding-right: 16rem;
+}
+.padding-top-low {
+  padding-top: 4rem;
+}
+
+.padding-bottom-low {
+  padding-bottom: 4rem;
+}
+
+.padding-bottom-mid {
+  padding-bottom: 8rem;
+}
+
+.padding-left-low {
+  padding-left: 8rem;
+}
+
+.padding-right-low {
+  padding-right: 8rem;
+}
+
+.flipped-texture {
+  rotate: 180deg;
+}
+
+.no-margin-bot {
+  margin-bottom: 0 !important;
+}
+
+.main-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(175, 142, 255); */
+}
+
+.right-arrow-container {
+  height: 5rem;
+}
+
+.right-arrow-container--small {
+  height: 3rem;
+}
+
+.right-arrow {
+  height: 100%;
+  width: auto;
+}
+
+/* REVEAL ON SCROLL */
+/* REVEAL ON SCROLL */
+/* REVEAL ON SCROLL */
+
+.revealed-content {
+  transition: opacity 0.5s ease-in-out, transform 0.5s;
+  will-change: transform, opacity;
+
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.reveal-from-bot {
+  transform: translate(0, 4rem);
+  opacity: 0;
+}
+
+.scroll-disabled {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+.no-margin {
+  margin-top: 0 !important;
+}

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="description" content="Baddi is a meme coin on Solana." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="icons/favicon_64.png" />
+    <link rel="apple-touch-icon" href="icons/favicon_180.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <link
+      rel="preload"
+      href="fonts/Lobster-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="preload"
+      href="fonts/Jost-VariableFont_wght.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+
+    <!-- <meta property="og:url" content="https://baddionsol.org/"/> -->
+    <meta property="og:title" content="Baddi on Solana" />
+
+    <meta property="og:url" content="https://baddionsol.org/" />
+    <meta property="og:description" content="The badass meme coin on Solana." />
+    <meta
+      property="og:image"
+      content="https://baddionsol.org/icons/baddi_web_thumbnail.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Baddi on Solana" />
+
+    <!-- TWITTER  -->
+    <meta name="twitter:title" content="Baddi on Solana" />
+    <meta
+      name="twitter:description"
+      content="The badass meme coin on Solana."
+    />
+    <!-- <meta name="twitter:card" content="icons/baddi_web_thumbnail.png" /> -->
+    <meta
+      name="twitter:image"
+      content="https://baddionsol.org/icons/baddi_web_thumbnail.png"
+    />
+    <meta
+      name="twitter:image:src"
+      content="https://baddionsol.org/icons/baddi_web_thumbnail.png"
+    />
+
+    <!-- SCRIPTS -->
+    <script
+      defer
+      rel="preconnect"
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+    <script defer src="js/common.js"></script>
+
+    <title>Baddi on Ethereum</title>
+  </head>
+
+  <body>
+    <div class="loading-page">
+      <div class="main-title-container stroked-title-container">
+        <h2 class="heading-02 on-top loading-text" id="loading-text">
+          Loading
+        </h2>
+        <h2 class="heading-02 heading-02-stroked loading-text">Loading</h2>
+      </div>
+    </div>
+
+    <header class="header">
+      <nav class="main-nav">
+        <li
+          class="main-nav-list-item hamburger-menu-btn-list hamburger-menu-btn-list-closed"
+        >
+          <img src="svg/hamburger_menu_btn.svg" class="hamburger-menu-btn" />
+        </li>
+        <ul class="main-nav-list">
+          <li class="main-nav-list-item">
+            <a href="#" class="nav-link home-btn-container internal-link">
+              <img class="home-img" src="icons/favicon_64.png" />
+              <p class="nav-item home-text">Home</p>
+            </a>
+          </li>
+
+          <li class="main-nav-list-item mobile-hidden-link">
+            <a href="#section-story" class="nav-link nav-item internal-link"
+              >Story</a
+            >
+          </li>
+
+          <li class="main-nav-list-item mobile-hidden-link">
+            <a
+              href="#section-how-to-buy"
+              class="nav-link nav-item internal-link"
+              >How to Buy</a
+            >
+          </li>
+
+          <li class="main-nav-list-item mobile-hidden-link">
+            <a href="#section-memes" class="nav-link nav-item internal-link"
+              >Memes</a
+            >
+          </li>
+
+          <li class="main-nav-list-item mobile-hidden-link">
+            <a
+              href="#section-tokenomics"
+              class="nav-link nav-item internal-link"
+              >Tokenomics</a
+            >
+          </li>
+
+          <li class="main-nav-list-item">
+            <a
+              target="_blank"
+              href="https://app.uniswap.org/"
+              class="nav-item nav-item-btn nav-link"
+            >
+              Buy Baddi
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section section-hero">
+      <div class="hero-content-container">
+        <div class="hero-text-container">
+          <div class="main-title-container stroked-title-container">
+            <h1 class="heading-01">
+              <span class="heading-01 on-top">Baddi</span>
+              <span class="heading-01 heading-01-stroked">Baddi</span>
+            </h1>
+          </div>
+          <h3 class="heading-03">The Badass Meme Coin</h3>
+          <p class="body-text">
+            Get ready to meet your Baddi! It’s not just any coin, it’s the most
+            badass coin on the Ethereum platform. Fast, fearless, and ready to
+            shake things up!
+          </p>
+        </div>
+        <picture class="hero-img-container"
+          ><img
+            class="hero-canvas-img"
+            src="img/hero_img.webp"
+            alt="baddi image hero"
+        /></picture>
+      </div>
+
+      <picture class="paper-texture-container">
+        <img
+          class="paper-texture-pink"
+          src="svg/paper_cut_01.svg"
+          alt="paper cut item"
+        />
+        <div class="marquee-container">
+          <div class="marquee" id="scroll-container">
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+            <div class="marquee-item">Baddi</div>
+          </div>
+        </div>
+      </picture>
+    </section>
+
+    <section id="section-story" class="section section-story">
+      <div class="box-wrapper">
+        <div class="box inverted">
+          <div class="story-content-container">
+            <picture class="story-img-container revealed-content"
+              ><img
+                class="canvas-img-02"
+                src="img/story_img.webp"
+                alt="baddi image story"
+            /></picture>
+            <div class="story-text-container revealed-content">
+              <div class="main-title-container stroked-title-container">
+                <h2 class="heading-02 on-top">Story</h2>
+                <h2 class="heading-02 heading-02-stroked">Story</h2>
+              </div>
+
+              <p class="body-text">
+                At first, the meme will just be another meme coin among many
+                others, but sit back and look further ahead. The advantage of
+                $BB is that it's incredibly easy to shill on social media. Since
+                they are dolls, you'll find them adorable and there's bound to
+                be one that catches your eye.
+              </p>
+              <p class="body-text">
+                Now, imagine the future. Picture every holder having fun buying
+                their doll on Amazon, creating their own meme and sharing it
+                with the community. Thanks to the meme creator, all the baddies
+                will have their own custom pfp and spread the word.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-platform-links" class="section section-platform-links">
+      <div class="platform-links-container">
+        <a
+          target="_blank"
+          href="https://x.com/"
+          class="platform-link revealed-content"
+        >
+          <div class="platform-logo-container">
+            <picture class="platform-logo-box centered">
+              <img class="platform-logo" src="svg/x_logo.svg" alt="x logo" />
+            </picture>
+          </div>
+          <p class="platform-name">Twitter</p>
+        </a>
+        <a
+          target="_blank"
+          href="https://t.me/"
+          class="platform-link revealed-content"
+        >
+          <div class="platform-logo-container">
+            <picture class="platform-logo-box centered">
+              <img
+                class="platform-logo"
+                src="svg/telegram_logo.svg"
+                alt="x logo"
+              />
+            </picture>
+          </div>
+          <p class="platform-name">Telegram</p>
+        </a>
+        <a
+          target="_blank"
+          href="https://dexscreener.com/ethereum/0x00000000000000000000000000000000"
+          class="platform-link revealed-content"
+        >
+          <div class="platform-logo-container">
+            <picture class="platform-logo-box centered">
+              <img
+                class="platform-logo"
+                src="svg/dexscreener_logo.svg"
+                alt="x logo"
+              />
+            </picture>
+          </div>
+          <p class="platform-name">Dexscreener</p>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.dextools.io/app/en/ethereum/pair-explorer/0x00000000000000000000000000000000?t=1728416908279"
+          class="platform-link revealed-content"
+        >
+          <div class="platform-logo-container">
+            <picture class="platform-logo-box centered">
+              <img
+                class="platform-logo"
+                src="svg/dextools_logo.svg"
+                alt="x logo"
+              />
+            </picture>
+          </div>
+          <p class="platform-name">Dextools</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="section-how-to-buy" class="section section-how-to-buy">
+      <div class="main-title-wrapper revealed-content">
+        <div
+          class="main-title-container stroked-title-container margin-bot-mid"
+        >
+          <h2 class="heading-02 on-top">How To Buy</h2>
+          <h2 class="heading-02 heading-02-stroked">How To Buy</h2>
+        </div>
+      </div>
+
+      <div class="how-to-steps-wrapper">
+        <div class="how-to-step how-to-step-01">
+          <picture class="paper-texture-container-01">
+            <img
+              class="paper-texture-pink"
+              src="svg/paper_cut_02.svg"
+              alt="paper cut item"
+            />
+          </picture>
+
+          <div class="how-to-text-container revealed-content">
+            <p class="large-number">01</p>
+            <h3 class="heading-03">Create a Wallet</h3>
+            <p class="body-text no-margin-bot">
+              Download Metamask or your wallet of choice from the App Store or
+              Google Play Store for free. Desktop users, download the Google
+              Chrome extension by going to Metamask.
+            </p>
+          </div>
+
+          <picture class="how-to-step-image-container revealed-content">
+            <img class="how-to-step-image" src="img/metamask.png" />
+          </picture>
+
+          <picture class="paper-texture-container-02 flipped-texture">
+            <img
+              class="paper-texture-pink"
+              src="svg/paper_cut_02.svg"
+              alt="paper cut item"
+            />
+          </picture>
+        </div>
+
+        <div class="how-to-step how-to-step-02">
+          <picture class="how-to-step-image-container revealed-content">
+            <img class="how-to-step-image" width="50%" src="img/ethereum.png" />
+          </picture>
+
+          <div class="how-to-text-container revealed-content">
+            <p class="large-number">02</p>
+            <h3 class="heading-03">Get Some Eth</h3>
+            <p class="body-text no-margin-bot">
+              Have Eth in your wallet to switch to $BB. If you don’t have any
+              Eth, you can buy directly on Metamask, transfer from another
+              wallet, or buy on another exchange and send it to your wallet.
+            </p>
+          </div>
+        </div>
+
+        <div class="how-to-step how-to-step-03">
+          <picture class="paper-texture-container-01">
+            <img
+              class="paper-texture-pink"
+              src="svg/paper_cut_02.svg"
+              alt="paper cut item"
+            />
+          </picture>
+
+          <div class="how-to-text-container revealed-content">
+            <p class="large-number">03</p>
+            <h3 class="heading-03">Go to Uniswap</h3>
+            <p class="body-text no-margin-bot">
+              Connect to Uniswap. Go to Uniswap in google chrome or on the
+              browser inside your Metamask app. Connect your wallet. Paste the
+              $BB token address into Uniswap, select $BB, and confirm. When
+              Metamask prompts you for a wallet signature, sign.
+            </p>
+          </div>
+
+          <picture class="how-to-step-image-container revealed-content">
+            <img class="how-to-step-image" src="img/uniswap.png" />
+          </picture>
+
+          <picture class="paper-texture-container-02 flipped-texture">
+            <img
+              class="paper-texture-pink"
+              src="svg/paper_cut_02.svg"
+              alt="paper cut item"
+            />
+          </picture>
+        </div>
+
+        <div class="box-wrapper-shadow">
+          <div class="box-wrapper-01">
+            <div class="box-01 inverted">
+              <div class="how-to-step how-to-step-04">
+                <picture class="how-to-step-image-container revealed-content">
+                  <img
+                    class="how-to-step-image empty-circular"
+                    src="svg/baddie_logo.webp"
+                  />
+                </picture>
+
+                <div class="how-to-text-container revealed-content">
+                  <p class="large-number">04</p>
+                  <h3 class="heading-03">Buy $BB</h3>
+                  <p class="body-text no-margin-bot">
+                    Switch Eth for $BB, and you're done. <br />
+                    No Taxes, no drama, just pure Badness.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-memes" class="section section-memes">
+      <div class="main-title-container stroked-title-container margin-left-low">
+        <h2 class="heading-02 on-top">Memes for $BB</h2>
+        <h2 class="heading-02 heading-02-stroked">Memes for $BB</h2>
+      </div>
+      <div class="memes-wrapper">
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_01.webp" />
+        </picture>
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_02.webp" />
+        </picture>
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_03.webp" />
+        </picture>
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_04.webp" />
+        </picture>
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_05.webp" />
+        </picture>
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_06.webp" />
+        </picture>
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_07.webp" />
+        </picture>
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_08.webp" />
+        </picture>
+        <picture class="meme-container revealed-content">
+          <img class="canvas-img-01" src="img/meme_09.webp" />
+        </picture>
+      </div>
+      <div class="meme-generator-btn-container">
+        <a class='platform-link meme-generator-btn' href='/meme_maker'>
+          <p class="platform-name meme-generator-btn-text">
+            Make Your Baddi Meme
+          </p>
+          <picture class="right-arrow-container">
+            <img class="right-arrow" src="svg/arrow_right.svg" />
+          </picture>
+        </a>
+      </div>
+    </section>
+
+    <section
+      id="section-tokenomics"
+      class="section section-tokenomics padding-left-low padding-right-low"
+    >
+      <div
+        class="main-title-container stroked-title-container revealed-content"
+      >
+        <h2 class="heading-02 on-top">Tokenomics</h2>
+        <h2 class="heading-02 heading-02-stroked">Tokenomics</h2>
+      </div>
+
+      <div class="ca-text-container revealed-content">
+        <p class="body-text ca-text">
+          CA: 0x00000000000000000000000000000000
+        </p>
+      </div>
+
+      <div class="tokemomics-content-container">
+        <div class="tokenomics-grid">
+          <div class="tokenomics-item revealed-content">
+            <p class="tokenomics-item-title">1 Billion $BB</p>
+            <p class="body-text tokenomics-item-body-text">Total Supply</p>
+          </div>
+          <div class="tokenomics-item revealed-content">
+            <p class="tokenomics-item-title">100%</p>
+            <p class="body-text tokenomics-item-body-text">LP Burned</p>
+          </div>
+          <div class="tokenomics-item revealed-content">
+            <p class="tokenomics-item-title">0%</p>
+            <p class="body-text tokenomics-item-body-text">Tax</p>
+          </div>
+          <a
+            target="_blank"
+            href="https://app.uniswap.org/"
+            class="tokenomics-item tokenomics-cta revealed-content"
+          >
+            <div class="tokenomics-btn-conatiner">
+              <div class="tokenomics-item-text-container">
+                <p class="heading-02-A">Buy</p>
+                <p class="heading-02-A">Baddi</p>
+              </div>
+              <picture class="right-arrow-container-02">
+                <img class="right-arrow" src="svg/arrow_right.svg" />
+              </picture>
+            </div>
+          </a>
+        </div>
+        <picture class="tokenomics-img revealed-content">
+          <img class="tokenomics-canvas-img" src="img/baddi_tokenomics.webp" />
+        </picture>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <ul class="footer-nav-list">
+          <li class="main-nav-list-item footer-list-01">
+            <a href="#" class="nav-link home-btn-container internal-link">
+              <img class="home-img" src="icons/favicon_64.png" />
+              <p class="nav-item">Baddi</p>
+            </a>
+          </li>
+
+          <li class="main-nav-list-item middle-list-item footer-list-02">
+            <p class="body-text footer-copyright">
+              All Rights Reserved | Copyright ©2024 $BB
+            </p>
+          </li>
+
+          <li class="main-nav-list-item footer-list-03">
+            <div class="social-icons-container">
+              <a
+                target="_blank"
+                href="https://x.com/"
+                class="footer-social-icon-container"
+              >
+                <img class="footer-social-icon" src="svg/x_logo_white.svg" />
+              </a>
+              <a
+                target="_blank"
+                href="https://t.me/"
+                class="footer-social-icon-container"
+              >
+                <img
+                  class="footer-social-icon"
+                  src="svg/telegram_logo_white.svg"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://dexscreener.com/ethereum/0x000000000000000000000000000000000000"
+                class="footer-social-icon-container"
+              >
+                <img
+                  class="footer-social-icon"
+                  src="svg/dexscreener_logo_white.svg"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.dextools.io/app/en/ethereum/pair-explorer/0x000000000000000000000000000000000000?t=1728416908279"
+                class="footer-social-icon-container"
+              >
+                <img
+                  class="footer-social-icon"
+                  src="svg/dextools_logo_white.svg"
+                />
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
